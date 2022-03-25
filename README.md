@@ -1,7 +1,5 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/ma161ric/shithead?color=green)
 [![GitHub repo size](https://img.shields.io/github/repo-size/ma161ric/shithead)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-![GitHub commit merge status](https://img.shields.io/github/commit-status/ma161ric/shithead/master/c8757cf)
-
 
 
 # Project
@@ -14,10 +12,6 @@ You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console
 
 Shithead is a card game played up to 4 players. The goal is to get rid off all cards. So the player with no cards first wins.
 
-You can place your stones by inputting a two-indexed location. All adjacent Fields with opposite stones become your own.
-
-## JOTD - Joke of the Day
-![Jokes Card](https://readme-jokes.vercel.app/api)
 # Contributors
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=ma161ric/shithead)
@@ -27,6 +21,9 @@ You can place your stones by inputting a two-indexed location. All adjacent Fiel
 
 #### [Levi](https://github.com/L9Prometheus)
 ![image](https://github-readme-streak-stats.herokuapp.com/?user=L9Prometheus)
+
+## JOTD - Joke of the Day
+![Jokes Card](https://readme-jokes.vercel.app/api)
 
 ## sbt project compiled with Scala 3
 
