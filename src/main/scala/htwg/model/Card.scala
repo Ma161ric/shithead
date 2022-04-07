@@ -1,9 +1,10 @@
-package model
-package htwg
+package htwg.model
 
-case class Card(value:Int) {
-    def oneCard(value:Int) = bar + eol + cardValue(value) + eol + bar + eol
-    def eol = sys.props("line.separator")
-    def bar = "+-+"
-    def cardValue(value:Int) = ("|" + value + "| ")
+case class Card() {
+    
+    def oneCard(value:Int) = bar + eol + cardColorValue(value:Int) + eol + bar + eol
+    def cardColorValue(value:Int) = ("|" + value + "| ")
+    val eol = sys.props("line.separator")
+    val bar = "+-+"
+    def createCard(value:Int) = println(bar + eol + cardColorValue(value) + eol + bar + eol)
 }
