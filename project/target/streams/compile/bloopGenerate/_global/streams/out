@@ -1,4 +1,4 @@
-[debug] [shithead-build] Classpath dependencies List()
-[debug] [shithead-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'shithead-build' to 'C:\Users\levik\Documents\GitHub\shithead\project\.bloop\shithead-build.json'
-[success] Generated .bloop\shithead-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[shithead-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[shithead-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'shithead-build' to 'C:\Users\levik\Documents\GitHub\shithead\project\.bloop\shithead-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\shithead-build.json[0m
