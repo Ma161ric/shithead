@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 [warn] sbt-bloop-1.4.13-sources.jar no longer exists at C:\Users\failo\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\1.4.13\sbt-bloop-1.4.13-sources.jar
 [debug] not up to date. inChanged = false, force = false
 [debug] Updating ProjectRef(uri("file:/C:/Users/levik/Documents/GitHub/shithead/project/"), "shithead-build")...
 [debug] Done updating ProjectRef(uri("file:/C:/Users/levik/Documents/GitHub/shithead/project/"), "shithead-build")
+=======
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/failo/Documents/GitHub/shithead/project/"), "shithead-build")...
+[debug] Done updating ProjectRef(uri("file:/C:/Users/failo/Documents/GitHub/shithead/project/"), "shithead-build")
+>>>>>>> 0fdf3f52bfb24ed36e52a39aec9b5dcdd25f89b4
