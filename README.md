@@ -9,7 +9,11 @@ This project is developed as an example for the lecture Software Engineering at 
 You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
 
 ## Shithead
-
+best
+project
+of
+the
+world
 Shithead is a card game played up to 4 players. The goal is to get rid off all cards. So the player with no cards first wins.
 
 # Contributors
