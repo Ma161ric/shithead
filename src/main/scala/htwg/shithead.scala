@@ -1,6 +1,6 @@
-package htwg.model
+package src.main.scala.htwg
 
-import htwg.model.Card._
+import model._
 import scala.compiletime.ops.int
 import scala.io.StdIn._
 
@@ -10,15 +10,9 @@ import scala.io.StdIn._
         +-------------------+""")
     println("\ntype in number of cards:")
     var numCards = readInt()
-    while (numCards < 1 || numCards > 9) {
+    while (numCards < 1 || numCards > 40) {
         println("wrong input. pls type again:")
         numCards = readInt()
     }
-    val allCards = new Array[Card](numCards + 1)
-    for (i <- 1 to numCards) {
-        val r = new scala.util.Random
-        val r1 = 1 + r.nextInt(9)
-        val card = new Card()
-        card.createCard(r1)
-        allCards(i) = card
-    }
+    val deck = new CardDeck
+    deck.createDeck(numCards)

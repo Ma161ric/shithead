@@ -1,20 +1,21 @@
-package htwg.model
+package src.main.scala.htwg.model
 
 import Card._
 
-case class CardDeck(numCards:Int) {
+case class CardDeck() {
 
-    def create:Unit =
+    def createDeck(numCards:Int) =
         val allCards = new Array[Card](numCards + 1)
-        while (numCards != 0) {
-            for (i <- 1 to numCards) {
-                val r = new scala.util.Random
-                val r1 = 1 + r.nextInt(8)
-                val card = new Card(r1)
-                allCards(i) = card
-            }
-            println(allCards)
+        for (i <- 1 to numCards) {
+            val r = new scala.util.Random
+            val r1 = 1 + r.nextInt(9)
+            val card = new Card()
+            card.createCard(r1)
+            allCards(i) = card
         }
+        
+        println("deck created")
+        
         
 
     
