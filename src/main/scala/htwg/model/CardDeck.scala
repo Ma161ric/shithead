@@ -10,14 +10,7 @@ case class CardDeck() {
             val r = new scala.util.Random
             val r1 = 1 + r.nextInt(9)
             val card = new Card()
-            card.createCard(r1)
+            println(card.createCard(r1))
             allCards(i) = card
         }
-        
-        println("deck created")
-        
-        
-
-    
-    
 }

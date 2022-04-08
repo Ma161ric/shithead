@@ -6,5 +6,5 @@ case class Card() {
     def cardColorValue(value:Int) = ("|" + value + "| ")
     def eol = sys.props("line.separator")
     def bar = "+-+"
-    def createCard(value:Int) = println(bar + eol + cardColorValue(value) + eol + bar + eol)
+    def createCard(value:Int) = bar + eol + cardColorValue(value) + eol + bar + eol
 }

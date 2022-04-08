@@ -1,4 +1,4 @@
-package src.test.scala.model
+package src.test.scala.htwg.model
 
 import scala.io.StdIn._
 import src.main.scala.htwg.model._

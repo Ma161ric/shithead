@@ -1,5 +1,6 @@
 package src.main.scala.htwg
 
+import aview._
 import model._
 import scala.compiletime.ops.int
 import scala.io.StdIn._
@@ -8,11 +9,13 @@ import scala.io.StdIn._
     println("""        +-------------------+
          welcome to shithead
         +-------------------+""")
-    println("\ntype in number of cards:")
-    var numCards = readInt()
-    while (numCards < 1 || numCards > 40) {
-        println("wrong input. pls type again:")
-        numCards = readInt()
+
+    val tui = new TUI()
+
+    var input: String = ""
+    while (input != "q" && input != "exit"){
+        Console.print("->")
+        input = readLine()
+        tui.run(input)
     }
-    val deck = new CardDeck
-    deck.createDeck(numCards)
+    
