@@ -1,8 +1,19 @@
-/.bsp
-/.bloop
-/.metals
+# bloop and metals
+.bloop
+.bsp
+.metals
+
+# sbt
+project/project/
+project/target/
+target/
+
+# coursier
+null/
+
+# other
 /.vscode
-/.class
-/project/project/
-/project/target/
-/target
+/.idea
+/.ammonite
+/.history
+/**field*

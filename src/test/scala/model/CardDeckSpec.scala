@@ -13,7 +13,7 @@ class CardDeckSpec extends AnyWordSpec {
     "CardDeck" when {
         "created" should {
             "print a whole cardDeck" in {
-                cardDeck.createDeck(3) should be ("+-+")
+                cardDeck.createDeck(3) should startWith ("+-+")
             }
         }
         
