@@ -1,21 +1,16 @@
 package src.main.scala.htwg
 
-import aview._
+import aview.TUI
 import model._
-import scala.compiletime.ops.int
 import scala.io.StdIn._
+import controller.Controller
 
 @main def run: Unit =
     println("""        +-------------------+
          welcome to shithead
         +-------------------+""")
 
-    val tui = new TUI()
-
-    var input: String = ""
-    while (input != "q" && input != "exit"){
-        Console.print("->")
-        input = readLine()
-        tui.run(input)
-    }
-    
+    val game = new Game("P1","P2","P3","P4")
+    val controller = Controller(game)
+    val tui = TUI(controller)
+    tui.run
