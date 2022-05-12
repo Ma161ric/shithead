@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/Ma161ric/shithead/branch/develop/graph/badge.svg?token=GFVK4TN9WC)](https://codecov.io/gh/Ma161ric/shithead)
 ![GitHub contributors](https://img.shields.io/github/contributors/ma161ric/shithead?color=green)
 [![GitHub repo size](https://img.shields.io/github/repo-size/ma161ric/shithead)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
