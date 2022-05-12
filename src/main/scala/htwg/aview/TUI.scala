@@ -12,15 +12,13 @@ class TUI(controller: Controller) extends Observer:
         println(controller.game.toString)
         inputLoop()
 
-
     override def update = println(controller.game.toString)
-
 
     val ERROR = -1
     val EXIT = 0
     val SUCCESS = 1
 
-    //def this() = this(new Controller(Game("Spieler1", "Spieler2", "Spieler3", "Spieler4")))
+    // def this() = this(new Controller(Game("Spieler1", "Spieler2", "Spieler3", "Spieler4")))
 
     def inputLoop(): Unit =
         convertinputString(readLine) match{
