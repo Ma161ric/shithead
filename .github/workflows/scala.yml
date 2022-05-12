@@ -21,5 +21,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
+        files: ./lib.c.gcov
+        token: ${{ secrets.CODECOV_TOKEN }}
     - name: Run tests
       run: sbt test
