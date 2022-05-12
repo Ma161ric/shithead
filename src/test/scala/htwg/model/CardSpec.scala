@@ -1,4 +1,4 @@
-package src.test.scala.htwg.model
+/*package src.test.scala.htwg.model
 
 import scala.io.StdIn._
 import src.main.scala.htwg.model._
@@ -27,4 +27,4 @@ class CardSpec extends AnyWordSpec {
         }
         
     }
-}
+}*/
